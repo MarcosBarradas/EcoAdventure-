@@ -46,7 +46,7 @@ LocalStorage API
 ARIA (acessibilidade)
 🚀 Como executar o projeto
 Clone o repositório:
-git clone https://github.com/MarcosBarradas/ecoadventure.git
+git clone https://github.com/MarcosBarradas/EcoAdventure-
 Acesse a pasta:
 cd ecoadventure
 Abra o arquivo index.html no navegador
