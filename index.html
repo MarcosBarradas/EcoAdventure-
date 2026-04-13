@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoAdventure</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main class="app">
+    <h1 class="titulo">EcoAdventure</h1>
+
+    <section class="quiz" aria-labelledby="titulo-quiz">
+        <h2 id="titulo-quiz">Quiz ambiental</h2>
+
+        <!-- Pergunta -->
+        <p id="questao" tabindex="0"></p>
+
+        <!-- Respostas -->
+        <div id="botao-resposta" role="group" aria-label="Opções de resposta"></div>
+
+        <!-- Feedback para leitor de tela -->
+        <div id="feedback" aria-live="polite" class="sr-only"></div>
+
+        <!-- Botão -->
+        <button id="proximo-btn">Próxima pergunta</button>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
