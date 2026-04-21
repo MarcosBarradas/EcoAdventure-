@@ -90,7 +90,7 @@ const questoes = [
     ]
 },
 
-// 🔥 MAIS QUESTÕES
+// MAIS QUESTÕES
 
 {
     questao: "O que é biodiversidade?",
@@ -273,7 +273,7 @@ const questoes = [
     ]
 },
 
-// 🔥 MAIS PROFUNDAS
+//  MAIS PROFUNDAS
 
 {
     questao: "Por que reduzir consumo é mais eficaz que apenas reciclar?",
@@ -376,7 +376,7 @@ let questaoAtualIndex = 0;
 let score = 0;
 
 // ===================
-// 💾 LOCAL STORAGE SEGURO
+// LOCAL STORAGE SEGURO
 // ===================
 function salvarProgresso() {
     localStorage.setItem("quizIndex", questaoAtualIndex);
@@ -387,7 +387,7 @@ function carregarProgresso() {
     const index = parseInt(localStorage.getItem("quizIndex"));
     const savedScore = parseInt(localStorage.getItem("quizScore"));
 
-    // 🔥 validação pra não quebrar
+    //  validação pra não quebrar
     if (!isNaN(index) && index < questoes.length) {
         questaoAtualIndex = index;
     }
@@ -416,7 +416,7 @@ function showQuestion() {
     let questaoAtual = questoes[questaoAtualIndex];
 
     if (!questaoAtual) {
-        // 🔥 fallback se der bug
+        //  fallback se der bug
         questaoAtualIndex = 0;
         score = 0;
         limparProgresso();
