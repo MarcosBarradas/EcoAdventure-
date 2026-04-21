@@ -87,6 +87,6 @@ melhorar acessibilidade
 
 Este projeto está sob licença MIT.
 
-💚 Autor
+💚 Marcos Barradas
 
 Desenvolvido com foco em educação ambiental e inclusão digital.
